@@ -1,15 +1,13 @@
 @charset "UTF-8";
-:root{
-    --color-blue-50:#4169E1;
-    --color-blue-100:#1E90FF;
-    --color-blue-200:#00BFFF;
-    --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200));
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: aliceblue;
+}
+i:hover{
+    transform: scale(1.2);
+    transition: 1s; 
 }
 .caixa-principal{
     height: 100vh;
@@ -44,6 +42,9 @@ li{
     margin-right: 30px;
     cursor: pointer;
 }
+.link-menu{
+    text-decoration: none;
+}
 nav#menu a:hover{
     color: #393a83;
     transition: 0.5s;
@@ -66,6 +67,7 @@ h3{
 .titulo i{
     font-size: 17pt;
     color:#393a83;
+    padding-top: 5px;
     margin-left: 5px;
     padding-left: 5px;
     text-decoration: none;
@@ -107,30 +109,60 @@ section h2{
 section#projetos{
     background-color: #272626;
 }
+section#experiencia{
+    background-color: #000000;
+    color: white;
+}
+section#educacao p{
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+    display: flex;
+    align-items: center;
+    padding: 60px 15%;
+}
+section#blog{
+    background-color: #000000;
+    color: white; 
+}
 .contato h3{
     font-size: 20pt;
     padding-left: 200px;
 }
 .contato a{
-    text-decoration: none !important ;   
+    text-decoration: none;   
     font-size: 40pt;
     position: relative;
     left: 300px;
     padding-bottom: 150px;
     padding-left: 100px;
 }
+.contato i{
+    background-color: #393a83;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+}
 footer#rodape{
-    clear: both;
-    border-top: 0px solid #000000;
+    background-color: #131212;
+    padding-top: 80px;
+    padding-bottom: 60px;
 }
 footer#rodape p{
     font-size: 14pt;
+    margin-bottom: 25px;
     text-align: center;
-    padding-top: 35px;
-    color: #000000;
+    color: #ffffff;
 }
 footer#rodape i{
+    background-color: #393a83;
+    padding: 8px;
+    border-radius: 50%;
     font-size: 15pt;
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
+}
+footer#rodape i:hover{
+    transform: scale(1.2);
+    transition: 1s;
 }
