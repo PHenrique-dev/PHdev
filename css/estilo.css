@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+header{
+    background-color: rgb(17, 17, 17);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header h1{
+    font-family: 'Black Ops One', cursive;
+    color: #393a83;
+    font-size: 2.5rem;
+}
+header span{
+    color: white;
+}
+header .menu{
+    display:flex;
+    gap: 10px;
+    align-items: center;
+}
+header .menu li a{
+    padding: 10px;
+    color: white;
+    font-size: 1.3rem;
+}
+header .menu li a:hover{
+    color: #393a83;
+    transition: 0.5s;
+}
+.section-div{
+    animation: inicializar .7s forwards;
+    background-color: #272626;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+}
+.caixa-principal i{
+    margin-top: 10px;
+    padding-right: 10px;
+    font-size: 17pt;
+    color: #393a83;
+    text-decoration: none;
+    display: inline-block;
+}
+.caixa-principal h2{
+    font-family: 'Poppins', sans-serif;
+    color: #f7f7f7;
+}
+.digitando::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .5s infinite;
+}
+@keyframes pisca {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes inicializar{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+main{
+    background-color: #000000;
+    color: white;
+}
+main .sobre{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    justify-content: center;
+    padding: 60px ;
+}
+.sobre_titulo{
+    margin: 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.sobre_titulo h1{
+    font-size: 2.5rem;
+    color: #393a83;
+    margin-bottom: 15px;
+    font-family: 'Black Ops One', cursive;
+}
+.sobre_titulo p{
+    color: #707070;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.sobre_titulo div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.sobre_titulo span{
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #393a83;
+}
+.sobre img{
+    cursor: pointer;
+    grid-row: 2;
+    max-width: 70%;
+    border-radius: 20%;
+    border: 2px solid #393a83;
+}
+.sobre_conteudo{
+    animation: vem .6s ease-in-out forwards;
+    grid-column: 2/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #707070;
+}
+.sobre_texto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+}
+.sobre_texto h1{
+    font-size: 2.3rem;
+    color: white;
+    grid-column: 1/-1;
+}
+.sobre_texto p{
+    font-size: 1.3rem;
+    grid-row: 2;
+    grid-column: 1/-1;
+}
+.sobre_info{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/-1;
+    gap: 15px;
+    align-items: center;
+}
+.sobre_info i{
+    color: #393a83;
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 1.5rem;
+}
+.sobre_info p{
+    font-size: .9rem;
+}
+@keyframes vem{
+    from{
+        transition: .5s;
+        transform: translate3d(60px, 0, 0);
+    }
+    to{
+transform: translate3d(0, 0, 0);
+    }
+}
+button{
+    margin-top: 15px;
+    font-size: 17px;
+    height: 45px;
+    width: 160px;
+    background-color: #393a83;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid #393a83;
+    cursor: pointer;
+}
+button:hover{
+    transition: 1s;
+    background-color: #000000;
+}
