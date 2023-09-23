@@ -216,7 +216,7 @@
                 <span></span>
                 <span></span>
             </div>
-            <form action="https://formsubmit.co/ajax/pedrohenso@outlook.com" method="POST" data-form>
+            <form action="https://api.staticforms.xyz/submit" method="POST" data-form>
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome" required/>
                 <label for="email">E-mail:</label>
@@ -225,7 +225,9 @@
                 <input type="text" name="contato" id="contato" required/>
                 <label for="mensagem">Mensagem:</label>
                 <textarea name="mensagem" id="mensagem" required></textarea>
-                <button type="submit" data-button>Enviar</button>
+                <button type="submit" id="formu" onclick="abrirAlertaSuccess()">Enviar</button>
+                <input type="hidden" name="accessKey" value="33e23f19-e6a5-43bc-a2af-20fd26a9595a">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html" target="_blank">
             </form>
             </div>
             <div class="contato_conteudo">
@@ -238,6 +240,7 @@
             </div>
         </div>
     </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="/js/script.js"></script>
     <footer id="rodape">
         <p>Copyright &copy; 2023 - by Pedro Henrique<br/>
