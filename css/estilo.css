@@ -251,7 +251,7 @@ ul#album_projetos li:hover{
     transition: 1s;
 }
 ul#album_projetos li#foto01{
-    background: url(/imagens/projeto-construcao.jpg) no-repeat;
+    background: url(/imagens/Naruto.png) no-repeat;
     background-color: white;
     background-position: 50% 50%;
     background-size: 400px 400px;
