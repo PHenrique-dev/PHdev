@@ -240,8 +240,8 @@ ul#album_projetos{
     gap: 70px;
 }
 ul#album_projetos li{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     margin: 20px;
     border: 5px solid white;
     background-color: white;
