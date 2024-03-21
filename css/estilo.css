@@ -263,13 +263,14 @@ ul#album_projetos li#foto02{
     background-size: 300px 300px;
 }
 .experiencias_conteudo{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     justify-content: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #222;
     font-size: 1.2rem;
     text-align: justify;
+    margin-left: 50%;
     padding-top: 70px;
     padding-bottom: 100px;
     margin-bottom: 100px;
