@@ -279,7 +279,7 @@ ul#album_projetos li#foto02{
     width: 380px;
     height: 130px;
     padding: 10px;
-    margin-top: 30%;
+    margin-top: 20px;
     font-weight: bold;
     font-size: 1.9rem;
     box-shadow: inset 0 0 25px #272626;
@@ -288,7 +288,7 @@ ul#album_projetos li#foto02{
 .experiencias_conteudo p{
     column-gap: 30px;
     margin-right: 50px;
-    margin-top: 40%;
+    margin-top: 60%;
 }
 /*educação*/
 .educacao_conteudo{
