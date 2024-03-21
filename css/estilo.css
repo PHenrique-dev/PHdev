@@ -262,26 +262,6 @@ ul#album_projetos li#foto02{
     background-position: 50% 50%;
     background-size: 300px 300px;
 }
-.experiencias_conteudo{
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #222;
-    font-size: 1.2rem;
-    text-align: justify;
-    margin-left: 50%;
-    padding-top: 70px;
-    padding-bottom: 100px;
-    margin-bottom: 100px;
-}
-
-.experiencias_conteudo p{
-    column-gap: 30px;
-    padding: 50px;
-    justify-content: center;
-    margin-top: 60%;
-}
 /*educação*/
 .educacao_conteudo{
     text-align: justify;
