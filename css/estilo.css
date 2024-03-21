@@ -277,7 +277,7 @@ ul#album_projetos li#foto02{
 
 .experiencias_conteudo p{
     column-gap: 30px;
-    margin-right: 50px;
+    padding: 50px;
     justify-content: center;
     margin-top: 60%;
 }
