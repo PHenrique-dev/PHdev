@@ -288,6 +288,7 @@ ul#album_projetos li#foto02{
 .experiencias_conteudo p{
     column-gap: 30px;
     margin-right: 50px;
+    margin-top: 40%;
 }
 /*educação*/
 .educacao_conteudo{
