@@ -167,7 +167,7 @@ main .sobre{
     grid-column: 2/-1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color: #707070;
+    color: #ffffff;
 }
 .sobre_texto{
     display: grid;
